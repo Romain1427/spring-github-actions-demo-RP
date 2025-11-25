@@ -21,7 +21,7 @@ public class IndexController {
 
         String givenName = request.getParameter("fname");
         String surname = request.getParameter("lname");
-
+        System.out.println("ABC");
         Person person = new Person(givenName,surname);
         model.addAttribute("person",person);
 
