@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Messages utiles
-        run: |
+      - name: Message utile A
+        run:
           echo "Récupération du code source"
+      - name: Message utile B
+        run:
           echo "Vérification terminée"
