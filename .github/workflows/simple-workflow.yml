@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Messages utiles
         run: |
-          echo "Début du workflow"
-          echo "Fin du workflow"
+          echo "Récupération du code source"
+          echo "Vérification terminée"
