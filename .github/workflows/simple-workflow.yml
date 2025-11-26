@@ -1,5 +1,6 @@
 name: Test de workflow
 
-on:
-  woworkflow_dispatch:
-    
+on: 
+  - workflow_dispatch
+  - schedule:
+    - cron: "0 * * * *"
