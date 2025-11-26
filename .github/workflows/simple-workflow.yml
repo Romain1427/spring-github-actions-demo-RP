@@ -4,3 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
+jobs:
+  my-new-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Messages utiles
+        run: |
+          echo "Début du workflow"
+          echo "Fin du workflow"
